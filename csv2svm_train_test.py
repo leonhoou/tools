@@ -1,4 +1,3 @@
-```
 #!/usr/bin/env python
 """
     csv file to svm format
@@ -50,4 +49,3 @@ with open(infile, 'r') as fin:
                         newline += (" " + str(i-1) + ":" + str(line[i]))
                     ftrain.write(newline + "\n")
                 count += 1
-```
